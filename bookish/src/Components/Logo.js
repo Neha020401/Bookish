@@ -2,9 +2,16 @@ import React from 'react'
 import {faCartShopping } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { Link } from 'react-router-dom'
-
+import { useState } from 'react';
 
 const Logo = () => {
+const [search, setSearch] = useState('search for artist and book')
+
+const changeSearch = (event) =>{
+   const value = event.target.value
+   setSearch(value)
+}
+
 return (
 <div>
 <div className='logoContainer'><div>
@@ -16,7 +23,8 @@ return (
     <input type="search"
     name="searchInput"
     id="search"
-    placeholder=' Search for the Artists Or Books ' />
+    placeholder={search}
+    onChange={changeSearch} />
 </div>
 <div className='signBtnContainer'>
     <button className='loginBtn btn'>
