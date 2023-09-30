@@ -1,5 +1,5 @@
 .homeParentCards{
-  margin:10px 0px 0px 0px ;
+  margin: 10px 0px 0px 0px ;
   height:100px;
   background-color: rgba(0, 0,0,0.3);
   gap: 3px;
@@ -16,3 +16,16 @@
   margin: auto;
   border: 2px solid rgba(0, 0, 0,0.5);
 }
+
+/* .homeParentCards::-webkit-scrollbar {
+  width: 0px; 
+}
+
+.homeParentCards::-webkit-scrollbar-thumb {
+  background-color:white; 
+}
+
+.homeParentCards::-webkit-scrollbar-track {
+  background-color: white; 
+} */
+

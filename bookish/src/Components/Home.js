@@ -4,18 +4,19 @@ import { Fragment } from 'react';
 const Home = () => {
   return (
     <Fragment>
-          <div className='homeParentCards'>
-            <div className="homeChildCards"></div>
-            <div className="homeChildCards"></div>
-            <div className="homeChildCards"></div>
-            <div className="homeChildCards"></div>
-            <div className="homeChildCards"></div>
-            <div className="homeChildCards"></div>
-            <div className="homeChildCards"></div>
-            <div className="homeChildCards"></div>
-            <div className="homeChildCards"></div>
-            <div className="homeChildCards"></div>
-          </div>
+      <div className='homeParentCards'>
+        <div className="homeChildCards"><img /><div></div> </div>
+        <div className="homeChildCards"><img /><div></div> </div>
+        <div className="homeChildCards"><img /><div></div> </div>
+        <div className="homeChildCards"><img /><div></div> </div>
+        <div className="homeChildCards"><img /><div></div> </div>
+        <div className="homeChildCards"><img /><div></div> </div>
+        <div className="homeChildCards"><img /><div></div> </div>
+        <div className="homeChildCards"><img /><div></div> </div>
+        <div className="homeChildCards"><img /><div></div> </div>
+        <div className="homeChildCards  clickForMore">click here for more</div>
+      </div>
+
     </Fragment>
   )
 }
