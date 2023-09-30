@@ -1,15 +1,22 @@
 import React from 'react';
-
+import { Fragment } from 'react';
 
 const Home = () => {
   return (
-    <div>
-    <div className="home-container">
-      <h1>Welcome to Our Bookstore</h1>
-      <p>Discover a world of books and immerse yourself in captivating stories.</p>
-      <button className="explore-button">Explore Now</button>
-    </div>
-    </div>
+    <Fragment>
+          <div className='homeParentCards'>
+            <div className="homeChildCards"></div>
+            <div className="homeChildCards"></div>
+            <div className="homeChildCards"></div>
+            <div className="homeChildCards"></div>
+            <div className="homeChildCards"></div>
+            <div className="homeChildCards"></div>
+            <div className="homeChildCards"></div>
+            <div className="homeChildCards"></div>
+            <div className="homeChildCards"></div>
+            <div className="homeChildCards"></div>
+          </div>
+    </Fragment>
   )
 }
 
